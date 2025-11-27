@@ -18,6 +18,11 @@ body {
     padding-bottom: 7.5rem !important;
 }
 
+.py-7 {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
 .py-5 {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
@@ -98,3 +103,23 @@ body {
 }
 
 /* About Section End */
+/* Product Section Start */
+
+.card-container{
+    background-color: var(--secondary);
+    border-radius: 5px;
+    width: 300px;
+}
+
+.card-container .price-tag{
+    background-color: rgba(255, 255, 255, 0.6);
+    color: var(--primary);
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    z-index: 999;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* Product Section End */
