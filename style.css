@@ -123,3 +123,26 @@ body {
 }
 
 /* Product Section End */
+/* Footer Section Start */
+footer{
+    background-color: #ddb37d;
+}
+
+footer form{
+    position: relative;
+}
+
+footer form input{
+    height: 60px;
+}
+
+footer form .btn{
+    background-color: var(--primary);
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 6px;
+    display: flex;
+    justify-content: center;
+}
+/* Footer Section End */
