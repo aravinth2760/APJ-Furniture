@@ -9,6 +9,11 @@ body {
     font-family: "Poppins", sans-serif !important;
     font-weight: 400 !important;
     font-style: normal;
-    background: linear-gradient(180deg, #fffaf1 0%, #ffffff 60%, #fff0d9 100%) !important;
+    /* background: linear-gradient(180deg, #fffaf1 0%, #ffffff 60%, #fff0d9 100%) !important; */
     color: #292929 !important;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active{
+    color: var(--primary);
+    font-weight: 500;
 }
