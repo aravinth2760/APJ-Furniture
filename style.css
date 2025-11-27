@@ -18,6 +18,11 @@ body {
     padding-bottom: 7.5rem !important;
 }
 
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
 .title,
 .hero-text-title {
     color: var(--primary);
@@ -69,3 +74,27 @@ body {
 }
 
 /* Hero Section End */
+/* About Section Start */
+
+#aboutCarousel {
+    box-shadow: 25px 25px var(--secondary);
+    max-width: 600px;
+}
+
+#aboutCarousel .carousel-control-prev {
+    top: auto;
+    bottom: 10px;
+    transform: none;
+    left: auto;
+    right: 50px;
+}
+
+#aboutCarousel .carousel-control-next {
+    top: auto;
+    bottom: 10px;
+    transform: none;
+    left: auto;
+    right: 0px;
+}
+
+/* About Section End */
